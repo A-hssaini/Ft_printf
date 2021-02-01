@@ -16,7 +16,7 @@ SRC = ft_atoi.c ft_itoa.c ft_itoa_base.c ft_printf.c ft_strdup.c\
 	   ft_strlen.c outils1.c typed.c typep.c types.c typeu.c typexx.c\
 		ft_itoa_base_utils.c ft_itoa_base_utils1.c outils2.c\
 		typed1.c typeu1.c typexx1.c
-****
+		
 SRCS = $(addprefix srcs/, $(SRC))
 OBJ = $(SRC:.c=.o)
 OBJS = $(addprefix objs/, $(OBJ))
